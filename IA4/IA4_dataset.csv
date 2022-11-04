@@ -1,0 +1,21 @@
+gender,hsc_b,degree_t,Chance of Success
+M,ISC,Engineering,5
+M,ISC,Medicine,3
+M,CBSE,Management,2
+M,PANC,Commerce,3
+M,State,Engineering,2
+M,CBSE,Management,5
+F,International,Law,4
+M,State,Law,1
+M,CBSE,Medicine,4
+M,State,Management,2
+M,CBSE,Commerce,4
+M,State,Engineering,4
+F,ISC,Law,5
+F,International,Management,5
+M,State,Engineering,2
+F,CBSE,Law,3
+M,State,Commerce,1
+F,PANC,Medicine,3
+F,CBSE,Management,4
+M,ISC,Commerce,5

@@ -1,0 +1,534 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0108.1039                               -->
+<workbook original-version='18.1' source-build='2021.4.3 (20214.22.0108.1039)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='earthquakes1970-2014' inline='true' name='federated.155d3md1osh72h1duk5x40cwbzpr' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='earthquakes1970-2014' name='textscan.0or6qm60k00our1309zlx0vws7a5'>
+            <connection class='textscan' directory='D:/VIT Vellore - College Stuff/Semesters and ppts/Winter Semester 21-22/CSE3020 - Data Visualization (Lab)/IA8' filename='earthquakes1970-2014.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0or6qm60k00our1309zlx0vws7a5' name='earthquakes1970-2014.csv' table='[earthquakes1970-2014#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='datetime' name='DateTime' ordinal='0' />
+            <column datatype='real' name='Latitude' ordinal='1' />
+            <column datatype='real' name='Longitude' ordinal='2' />
+            <column datatype='real' name='Depth' ordinal='3' />
+            <column datatype='real' name='Magnitude' ordinal='4' />
+            <column datatype='string' name='MagType' ordinal='5' />
+            <column datatype='integer' name='NbStations' ordinal='6' />
+            <column datatype='integer' name='Gap' ordinal='7' />
+            <column datatype='integer' name='Distance' ordinal='8' />
+            <column datatype='real' name='RMS' ordinal='9' />
+            <column datatype='string' name='Source' ordinal='10' />
+            <column datatype='integer' name='EventID' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0or6qm60k00our1309zlx0vws7a5' name='earthquakes1970-2014.csv' table='[earthquakes1970-2014#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='datetime' name='DateTime' ordinal='0' />
+            <column datatype='real' name='Latitude' ordinal='1' />
+            <column datatype='real' name='Longitude' ordinal='2' />
+            <column datatype='real' name='Depth' ordinal='3' />
+            <column datatype='real' name='Magnitude' ordinal='4' />
+            <column datatype='string' name='MagType' ordinal='5' />
+            <column datatype='integer' name='NbStations' ordinal='6' />
+            <column datatype='integer' name='Gap' ordinal='7' />
+            <column datatype='integer' name='Distance' ordinal='8' />
+            <column datatype='real' name='RMS' ordinal='9' />
+            <column datatype='string' name='Source' ordinal='10' />
+            <column datatype='integer' name='EventID' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[earthquakes1970-2014.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Rs&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DateTime</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[DateTime]</local-name>
+            <parent-name>[earthquakes1970-2014.csv]</parent-name>
+            <remote-alias>DateTime</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[earthquakes1970-2014.csv_1DFDF404153E405FBD8DC19EB68792CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitude]</local-name>
+            <parent-name>[earthquakes1970-2014.csv]</parent-name>
+            <remote-alias>Latitude</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[earthquakes1970-2014.csv_1DFDF404153E405FBD8DC19EB68792CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitude]</local-name>
+            <parent-name>[earthquakes1970-2014.csv]</parent-name>
+            <remote-alias>Longitude</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[earthquakes1970-2014.csv_1DFDF404153E405FBD8DC19EB68792CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Depth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Depth]</local-name>
+            <parent-name>[earthquakes1970-2014.csv]</parent-name>
+            <remote-alias>Depth</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[earthquakes1970-2014.csv_1DFDF404153E405FBD8DC19EB68792CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Magnitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Magnitude]</local-name>
+            <parent-name>[earthquakes1970-2014.csv]</parent-name>
+            <remote-alias>Magnitude</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[earthquakes1970-2014.csv_1DFDF404153E405FBD8DC19EB68792CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MagType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MagType]</local-name>
+            <parent-name>[earthquakes1970-2014.csv]</parent-name>
+            <remote-alias>MagType</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[earthquakes1970-2014.csv_1DFDF404153E405FBD8DC19EB68792CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NbStations</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NbStations]</local-name>
+            <parent-name>[earthquakes1970-2014.csv]</parent-name>
+            <remote-alias>NbStations</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[earthquakes1970-2014.csv_1DFDF404153E405FBD8DC19EB68792CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gap</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gap]</local-name>
+            <parent-name>[earthquakes1970-2014.csv]</parent-name>
+            <remote-alias>Gap</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[earthquakes1970-2014.csv_1DFDF404153E405FBD8DC19EB68792CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Distance</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Distance]</local-name>
+            <parent-name>[earthquakes1970-2014.csv]</parent-name>
+            <remote-alias>Distance</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[earthquakes1970-2014.csv_1DFDF404153E405FBD8DC19EB68792CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RMS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RMS]</local-name>
+            <parent-name>[earthquakes1970-2014.csv]</parent-name>
+            <remote-alias>RMS</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[earthquakes1970-2014.csv_1DFDF404153E405FBD8DC19EB68792CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Source]</local-name>
+            <parent-name>[earthquakes1970-2014.csv]</parent-name>
+            <remote-alias>Source</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[earthquakes1970-2014.csv_1DFDF404153E405FBD8DC19EB68792CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EventID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[EventID]</local-name>
+            <parent-name>[earthquakes1970-2014.csv]</parent-name>
+            <remote-alias>EventID</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[earthquakes1970-2014.csv_1DFDF404153E405FBD8DC19EB68792CB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Date Time' datatype='datetime' name='[DateTime]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Distance]' role='measure' type='quantitative' />
+      <column caption='Event ID' datatype='integer' name='[EventID]' role='dimension' type='ordinal' />
+      <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Mag Type' datatype='string' name='[MagType]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Magnitude]' role='measure' type='quantitative' />
+      <column caption='Nb Stations' datatype='integer' name='[NbStations]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='earthquakes1970-2014.csv' datatype='table' name='[__tableau_internal_object_id__].[earthquakes1970-2014.csv_1DFDF404153E405FBD8DC19EB68792CB]' role='measure' type='quantitative' />
+      <column-instance column='[Distance]' derivation='Avg' name='[avg:Distance:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Magnitude]' derivation='Avg' name='[avg:Magnitude:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Distance]' derivation='Sum' name='[sum:Distance:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Magnitude]' derivation='Sum' name='[sum:Magnitude:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.155d3md1osh72h1duk5x40cwbzpr].[avg:Distance:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.155d3md1osh72h1duk5x40cwbzpr].[sum:Distance:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.155d3md1osh72h1duk5x40cwbzpr].[avg:Magnitude:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.155d3md1osh72h1duk5x40cwbzpr].[sum:Magnitude:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='earthquakes1970-2014.csv' id='earthquakes1970-2014.csv_1DFDF404153E405FBD8DC19EB68792CB'>
+            <properties context=''>
+              <relation connection='textscan.0or6qm60k00our1309zlx0vws7a5' name='earthquakes1970-2014.csv' table='[earthquakes1970-2014#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='datetime' name='DateTime' ordinal='0' />
+                  <column datatype='real' name='Latitude' ordinal='1' />
+                  <column datatype='real' name='Longitude' ordinal='2' />
+                  <column datatype='real' name='Depth' ordinal='3' />
+                  <column datatype='real' name='Magnitude' ordinal='4' />
+                  <column datatype='string' name='MagType' ordinal='5' />
+                  <column datatype='integer' name='NbStations' ordinal='6' />
+                  <column datatype='integer' name='Gap' ordinal='7' />
+                  <column datatype='integer' name='Distance' ordinal='8' />
+                  <column datatype='real' name='RMS' ordinal='9' />
+                  <column datatype='string' name='Source' ordinal='10' />
+                  <column datatype='integer' name='EventID' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='earthquakes1970-2014' name='federated.155d3md1osh72h1duk5x40cwbzpr' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.155d3md1osh72h1duk5x40cwbzpr'>
+            <column caption='Date Time' datatype='datetime' name='[DateTime]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Distance]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Source]' role='dimension' type='nominal' />
+            <column-instance column='[Distance]' derivation='Avg' name='[avg:Distance:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DateTime]' derivation='Minute' name='[mi:DateTime:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Source]' derivation='None' name='[none:Source:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.155d3md1osh72h1duk5x40cwbzpr].[avg:Distance:qk]' />
+              <color column='[federated.155d3md1osh72h1duk5x40cwbzpr].[none:Source:nk]' />
+              <text column='[federated.155d3md1osh72h1duk5x40cwbzpr].[mi:DateTime:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{24358F8D-D03F-4F12-8052-0057A4EAB44F}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.155d3md1osh72h1duk5x40cwbzpr].[none:Source:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.155d3md1osh72h1duk5x40cwbzpr].[:Measure Names]</field>
+            <field>[federated.155d3md1osh72h1duk5x40cwbzpr].[avg:Magnitude:qk]</field>
+            <field>[federated.155d3md1osh72h1duk5x40cwbzpr].[hr:DateTime:ok]</field>
+            <field>[federated.155d3md1osh72h1duk5x40cwbzpr].[mi:DateTime:ok]</field>
+            <field>[federated.155d3md1osh72h1duk5x40cwbzpr].[none:MagType:nk]</field>
+            <field>[federated.155d3md1osh72h1duk5x40cwbzpr].[none:Source:nk]</field>
+            <field>[federated.155d3md1osh72h1duk5x40cwbzpr].[sum:Distance:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F85B0254-BDA7-42CA-B819-3207ED7E18B2}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      4j0OLvL/+k9orfp+OqgAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

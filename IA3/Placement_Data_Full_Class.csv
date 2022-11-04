@@ -1,0 +1,21 @@
+gender,ssc_p %,hsc_p %,hsc_b,degree_p,degree_t,workex,etest_p %,status,salary
+M,67,91,ISC,58,Science,No,55,Placed,270000
+M,79.33,78.33,ISC,77.48,Science,Yes,86.5,Placed,200000
+M,65,68,CBSE,64,Management,No,75,Placed,250000
+M,56,52,State,52,Commerce,No,66,Not Placed,
+M,85.8,73.6,State,73.3,Science,No,96.8,Placed,425000
+M,55,49.8,CBSE,67.25,Management,Yes,55,Not Placed,
+F,46,49.2,International,79,Law,No,74.28,Not Placed,
+M,82,64,State,66,Law,Yes,67,Placed,252000
+M,73,79,CBSE,72,Science,No,91.34,Placed,231000
+M,58,70,State,61,Management,No,54,Not Placed,
+M,58,61,CBSE,60,Commerce,Yes,62,Placed,260000
+M,69.6,68.4,State,78.3,Science,Yes,60,Placed,250000
+F,47,55,ISC,65,Law,No,62,Not Placed,
+F,77,87,International,59,Management,No,68,Placed,218000
+M,62,47,State,50,Science,No,76,Not Placed,
+F,65,75,CBSE,69,Law,Yes,72,Placed,200000
+M,63,66.2,State,65.6,Commerce,Yes,60,Placed,300000
+F,55,67,ISC,64,Science,No,60,Not Placed,
+F,63,66,CBSE,64,Management,No,68,Not Placed,
+M,60,67,ISC,70,Commerce,Yes,50.48,Placed,236000
